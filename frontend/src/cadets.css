@@ -1,0 +1,172 @@
+.cadets-container {
+  padding: 20px 30px 30px;
+  min-height: calc(100vh - 65px); /* Adjust for navbar height */
+  color: #ffffff;
+  background: linear-gradient(135deg, #1a237e, #311b92);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Filters at the top */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+
+.filter-dropdown {
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 180px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content layout - after filters */
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Left side - Cadets list */
+.cadets-list {
+  width: 400px;
+  list-style: none;
+  padding: 15px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* Right side - Cadet details */
+.cadet-details {
+  width: 600px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.cadets-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cadets-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cadets-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.cadet-item {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cadet-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cadet-details h2 {
+  text-align: center;
+  color: #1a237e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1a237e;
+  padding-bottom: 10px;
+}
+
+.cadet-details p {
+  text-align: center;
+  margin: 15px 0;
+  line-height: 1.6;
+  font-size: larger;
+}
+
+.cadet-details strong {
+  color: #1a237e;
+}
+
+#Engineers, #EME, #Signals {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.loading {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  color: #ff4444;
+  background: rgba(255, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.cadet-item.selected {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transform: scale(1.02);
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}

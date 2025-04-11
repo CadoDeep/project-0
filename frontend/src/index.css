@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Remove conflicting main class */
+/* Delete lines 4-10 that contain .main class */
+
+#main {
+  color: white;
+}

@@ -1,0 +1,467 @@
+{
+  "_id": {
+    "$oid": "67d47d2449cd8639692777b6"
+  },
+  "cadets": [
+    {
+      "regimentalNo": "TN23SDA670002",
+      "rank": "CDT",
+      "name": "DEEPAK A",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "87"
+      },
+      "bio": "A disciplined and hardworking cadet with great leadership skills."
+    },
+    {
+      "regimentalNo": "TN23SDA670003",
+      "rank": "CDT",
+      "name": "DHARANI N",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "76"
+      },
+      "bio": "Passionate about teamwork and always eager to learn."
+    },
+    {
+      "regimentalNo": "TN23SDA670004",
+      "rank": "CDT",
+      "name": "INIYAN BALAJI V S",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "92"
+      },
+      "bio": "An exceptional strategist and problem solver."
+    },
+    {
+      "regimentalNo": "TN23SDA670005",
+      "rank": "CDT",
+      "name": "KAMALESHWARAN P",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "65"
+      },
+      "bio": "Always motivated and determined to achieve excellence."
+    },
+    {
+      "regimentalNo": "TN23SDA670013",
+      "rank": "CDT",
+      "name": "TAMILSELVAN K K",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "78"
+      },
+      "bio": "Enthusiastic about military drills and physical fitness."
+    },
+    {
+      "regimentalNo": "TN23SDA670007",
+      "rank": "CDT",
+      "name": "NAVEEN A",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "84"
+      },
+      "bio": "A quick learner with strong problem-solving skills."
+    },
+    {
+      "regimentalNo": "TN23SDA670008",
+      "rank": "CDT",
+      "name": "PRATHAP K",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "79"
+      },
+      "bio": "Highly organized and great at teamwork."
+    },
+    {
+      "regimentalNo": "TN23SDA670009",
+      "rank": "CDT",
+      "name": "RAJA S",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "82"
+      },
+      "bio": "Shows great commitment to duty and discipline."
+    },
+    {
+      "regimentalNo": "TN23SDA670010",
+      "rank": "CDT",
+      "name": "SARVESH J",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "88"
+      },
+      "bio": "Known for his reliability and strong ethical values."
+    },
+    {
+      "regimentalNo": "TN23SDA670011",
+      "rank": "CDT",
+      "name": "SIDDHARTH M",
+      "platoon": "Engineers",
+      "credit": {
+        "$numberInt": "90"
+      },
+      "bio": "Excellent in both academics and physical training."
+    },
+    {
+      "regimentalNo": "TN23SWA670234",
+      "rank": "CDT",
+      "name": "ANGELINE EDITH PRAISEY A",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "67"
+      },
+      "bio": "A team player who excels in challenging situations."
+    },
+    {
+      "regimentalNo": "TN23SWA670235",
+      "rank": "CDT",
+      "name": "DIVYA S S",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "94"
+      },
+      "bio": "Consistently performs well under pressure."
+    },
+    {
+      "regimentalNo": "TN23SDA670221",
+      "rank": "CDT",
+      "name": "ANBU SELVAN N",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "90"
+      },
+      "bio": "Excellent in communication and tactical strategies."
+    },
+    {
+      "regimentalNo": "TN23SDA670222",
+      "rank": "CDT",
+      "name": "BHAGAVATHI PERUMAL M S",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "71"
+      },
+      "bio": "Highly disciplined with a strong sense of duty."
+    },
+    {
+      "regimentalNo": "TN23SDA670223",
+      "rank": "CDT",
+      "name": "BHARATHWAJ S P",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "88"
+      },
+      "bio": "Innovative thinker with great technical knowledge."
+    },
+    {
+      "regimentalNo": "TN23SDA670224",
+      "rank": "CDT",
+      "name": "DHANDAPANI S",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "80"
+      },
+      "bio": "Dedicated cadet with strong leadership potential."
+    },
+    {
+      "regimentalNo": "TN23SWA670238",
+      "rank": "CDT",
+      "name": "RADHIKA DEVI V",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "85"
+      },
+      "bio": "Has a keen eye for detail and excellent problem-solving abilities."
+    },
+    {
+      "regimentalNo": "TN23SWA670239",
+      "rank": "CDT",
+      "name": "THARINI A S",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "77"
+      },
+      "bio": "Highly adaptable and quick to learn new skills."
+    },
+    {
+      "regimentalNo": "TN23SWA670240",
+      "rank": "CDT",
+      "name": "VARSHINIDEVI S",
+      "platoon": "Signals",
+      "credit": {
+        "$numberInt": "89"
+      },
+      "bio": "A strong team player with a determined attitude."
+    },
+    {
+      "regimentalNo": "TN24SDA670101",
+      "rank": "CDT",
+      "name": "AADHITHYA S",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670102",
+      "rank": "CDT",
+      "name": "AKASH H",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670103",
+      "rank": "CDT",
+      "name": "AMRIT GOWRI SHANKAR",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670104",
+      "rank": "CDT",
+      "name": "BALAJI V P",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670105",
+      "rank": "CDT",
+      "name": "DEV ASHWANTH D",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670106",
+      "rank": "CDT",
+      "name": "DHIRAVIDAMANI M",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670107",
+      "rank": "CDT",
+      "name": "DHYANEESH K",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670108",
+      "rank": "CDT",
+      "name": "GIRIDHARAN M",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670109",
+      "rank": "CDT",
+      "name": "HARISH M",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670110",
+      "rank": "CDT",
+      "name": "HEMANT VISHAL R",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670111",
+      "rank": "CDT",
+      "name": "LOKASHAKTHIVEL S P",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670112",
+      "rank": "CDT",
+      "name": "RAKESH SHARMA K",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670113",
+      "rank": "CDT",
+      "name": "SENTHIL RAJA R",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SDA670114",
+      "rank": "CDT",
+      "name": "UDAIYAPPAN P",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670115",
+      "rank": "CDT",
+      "name": "ATHIFA FAZIL A",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670116",
+      "rank": "CDT",
+      "name": "DHARANI G",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670117",
+      "rank": "CDT",
+      "name": "DIVYA SRI K",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670118",
+      "rank": "CDT",
+      "name": "ISHEETHA S",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670119",
+      "rank": "CDT",
+      "name": "JANANI M",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670120",
+      "rank": "CDT",
+      "name": "KAVYA P",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670121",
+      "rank": "CDT",
+      "name": "MAHALAKSHMI K",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670122",
+      "rank": "CDT",
+      "name": "POOJA A",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670123",
+      "rank": "CDT",
+      "name": "PRATHIBHA S",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670124",
+      "rank": "CDT",
+      "name": "SAMITHA PRAKASH",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670125",
+      "rank": "CDT",
+      "name": "VAISHIKA J",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670126",
+      "rank": "CDT",
+      "name": "VENBA K",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    },
+    {
+      "regimentalNo": "TN24SWA670127",
+      "rank": "CDT",
+      "name": "VIJAYA LAKSHMI U",
+      "platoon": "EME",
+      "credit": {
+        "$numberInt": "0"
+      },
+      "bio": ""
+    }
+  ]
+}
