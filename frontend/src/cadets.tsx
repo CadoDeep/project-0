@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./cadets.css";
+import Filter from "./components/filter";
+import CadetDetails from './components/CadetDetails';
 
 interface Cadet {
   regimentalNo: string;
@@ -63,44 +65,31 @@ const CadetsList: React.FC = () => {
   return (
     <div className="cadets-container">
       <h1>NCC Cadets</h1>
-      
-      {/* Filters at the top */}
+
+      {/* Updated Filters section */}
       <div className="filters">
-        <select 
-          value={selectedYear} 
-          onChange={(e) => setSelectedYear(e.target.value)}
-          className="filter-dropdown"
-        >
-          <option value="all">All Years</option>
-          {years.map(year => (
-            <option key={year} value={year}>{year}</option>
-          ))}
-        </select>
+        <Filter
+          options={years}
+          onChange={setSelectedYear}
+          defaultValue="all"
+          label="Years"
+        />
 
-        <select 
-          value={selectedGender} 
-          onChange={(e) => setSelectedGender(e.target.value)}
-          className="filter-dropdown"
-        >
-          <option value="all">All Genders</option>
-          {genders.map(gender => (
-            <option key={gender} value={gender}>{gender}</option>
-          ))}
-        </select>
+        <Filter
+          options={genders}
+          onChange={setSelectedGender}
+          defaultValue="all"
+          label="Genders"
+        />
 
-        <select 
-          value={selectedPlatoon} 
-          onChange={(e) => setSelectedPlatoon(e.target.value)}
-          className="filter-dropdown"
-        >
-          <option value="all">All Platoons</option>
-          {platoons.map(platoon => (
-            <option key={platoon} value={platoon}>{platoon}</option>
-          ))}
-        </select>
+        <Filter
+          options={platoons}
+          onChange={setSelectedPlatoon}
+          defaultValue="all"
+          label="Platoons"
+        />
       </div>
-      
-      {/* Content wrapper for list and details */}
+
       <div className="content-wrapper">
         <ul className="cadets-list">
           {filteredCadets.map((cadet) => (
@@ -113,18 +102,8 @@ const CadetsList: React.FC = () => {
             </li>
           ))}
         </ul>
-        
-        {selectedCadet && (
-          <div className="cadet-details">
-            <h2>{selectedCadet.rank} {selectedCadet.name}</h2>
-            <p><strong>Platoon:</strong> {selectedCadet.platoon}</p>
-            <p><strong>Regt-No:</strong> {selectedCadet.regimentalNo}</p>
-            <p><strong>Enrollment Year:</strong> {selectedCadet.enrollmentYear}</p>
-            <p><strong>Gender:</strong> {selectedCadet.gender}</p>
-            <p><strong>Credit:</strong> {selectedCadet.credit}</p>
-            <p><strong>Bio:</strong> {selectedCadet.bio}</p>
-          </div>
-        )}
+
+        {selectedCadet && <CadetDetails cadet={selectedCadet} />}
       </div>
     </div>
   );
